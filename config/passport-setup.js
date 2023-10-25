@@ -15,3 +15,4 @@ passport.deserializeUser((id, done) => {
 })
 
 //setup strategy
+passport.use(new /* Strategy */)

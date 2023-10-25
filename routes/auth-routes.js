@@ -1,9 +1,9 @@
 const router = require('express').Router()
 const passport = require('passport')
 
-router.get('/ //service', passport.authenticate('//service'))
+router.get('/'/*add service*/, passport.authenticate(''/*add service*/))
 
-router.get('/ //serice /callback', passport.authenticate('//service'), (req,res) => {
+router.get('//callback',/*add service*/ passport.authenticate(''/*add service*/), (req,res) => {
     res.redirect('/profile')
 })
 
